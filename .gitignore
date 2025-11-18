@@ -1,15 +1,39 @@
-# Ignore compiled Java class files
+# Ignore compiled class files
 *.class
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
 
 # Ignore build directories
 /bin/
+/build/
 /out/
 /target/
 
-# Ignore IDE settings
+# Ignore packaged files
+*.jar
+*.war
+*.ear
+
+# Ignore IDE & editor settings
 .vscode/
 .idea/
+*.iml
+*.ipr
+*.iws
 
-# Ignore temporary files
-*.log
-*.tmp
+# Ignore OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Ignore backup files
+*~
+*.bak
+
+# Ignore environment files
+.env
